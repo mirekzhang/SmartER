@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">SmartER</string>
+    <string name="sign_up">Sign up</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="welcome">Welcome to SmartER!</string>
+    <string name="username">Username *</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="providers">
+        <item>AGL</item>
+        <item>Origin Energy</item>
+        <item>Powershop</item>
+        <item>Red Energy</item>
+        <item>Alinta Energy</item>
+        <item>Click Energy</item>
+        <item>Dodo Power Gas</item>
+        <item>EnergyAustralia</item>
+        <item>Momentum Energy</item>
+        <item>Lumo Energy</item>
+        <item>Simply Energy</item>
+    </string-array>
+    <string-array name="number">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="report">
+        <item>Pie Chart</item>
+        <item>Bar Chart</item>
+        <item>Line Chart</item>
+    </string-array>
+    <string-array name="maps">
+        <item>Hourly</item>
+        <item>Daily</item>
+    </string-array>
+</resources>

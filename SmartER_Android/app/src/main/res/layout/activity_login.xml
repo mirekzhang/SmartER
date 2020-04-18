@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/et_username"
+        android:layout_centerHorizontal="true"
+        android:text="@string/welcome"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/et_password"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        android:singleLine="false" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_wronginfo"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <CheckBox
+        android:id="@+id/ch_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/et_password"
+        android:layout_alignBottom="@id/et_password"
+        android:text="Show" />
+
+    <TextView
+        android:id="@+id/tv_wronginfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/b_login"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/b_rego"
+        android:layout_alignStart="@+id/b_rego"
+        android:layout_below="@+id/tv_wronginfo"
+        android:text="Log in" />
+
+    <TextView
+        android:id="@+id/tv_or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/b_login"
+        android:text="or"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <Button
+        android:id="@+id/b_rego"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_or"
+        android:layout_centerHorizontal="true"
+        android:text="Sign up" />
+</RelativeLayout>

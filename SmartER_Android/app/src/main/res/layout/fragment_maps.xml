@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mirek.smarter.MainActivity" >
+
+    <Spinner
+        android:id="@+id/sp_maps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:entries="@array/maps"
+        >
+
+    </Spinner>
+
+    <com.mapquest.mapping.maps.MapView
+        android:id="@+id/mapquestMapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/sp_maps"
+        app:mapquest_app_key="3luuaY3WXaQkZS4ofRlnKwKRIJ6lQ1yh"
+        />
+
+</RelativeLayout>
